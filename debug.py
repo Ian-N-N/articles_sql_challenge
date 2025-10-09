@@ -7,8 +7,10 @@ from lib.article import Article
 create_tables()
 
 # Create authors
-a1 = Author("Ian").save()
-a2 = Author("Sarah").save()
+a1 = Author("Ian")
+a1.save()
+a2 = Author("Sarah")
+a2.save()
 
 # Create magazines
 m1 = Magazine("Nature Weekly", "Science").save()
